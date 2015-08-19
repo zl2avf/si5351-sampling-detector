@@ -10,7 +10,7 @@ where XC8 is the reactance of C8 at half the passband (cutoff) frequency,
 N=number of capacitors (in this case 2),
 and R5 is the series resistance feeding the switch
 
-If decide to change these values then change the value of C13 such that XC13=R7 at the same cutoff frequency.
+If you decide to change these values then change the value of C13 such that XC13=R7 at the same cutoff frequency.
 
 The si5351 synthesiser has a maximum frequency of 160MHz which sets the top frequency for this receiver to 
 80MHz. The PCB itself will go higher if you substitute an alternate signal source.
