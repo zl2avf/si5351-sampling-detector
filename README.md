@@ -15,6 +15,8 @@ If you decide to change these values then change the value of C13 such that XC13
 The si5351 synthesiser has a maximum frequency of 160MHz which sets the top frequency for this receiver to 
 80MHz. The PCB itself will go higher if you substitute an alternate signal source.
 
+The circuit diagram for the si5351 sythesiser may be found at https://github.com/zl2avf/Arduino-controlled-SI5351-frequency-synthesiser
+
 The Arduino *.ino code is slightly different from my other articles in that the I2C LCD displays the signal
 frequency whereas the si5351 frequency is double the signal frequency. Step-sizes of 10,100,1000,10000,100000,
 and 1000000Hz may be selected by short/long pushing the tuning knob on the rotary encoder.
