@@ -2,7 +2,7 @@
 Experimental 80MHz direct conversion receiver using an arduino controlled si5351 synthesiser 
 and a modified Tayloe sampling detector.
 
-This receiver has a constant -3dB passband of 6KHz at all frequencies and is set by the values of R1,C1,C2.
+This receiver has a constant -3dB passband of 6KHz at all frequencies and is set by the values of R5,C8,C9.
 
 The formula I used to determine the passband was:    
 XC8=NR5 
